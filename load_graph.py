@@ -8,7 +8,6 @@ Imports physics citation graph
 import urllib2
 
 # Code for loading citation graph
-
 CITATION_URL = "http://storage.googleapis.com/codeskulptor-alg/alg_phys-cite.txt"
 
 def load_graph(graph_url):
@@ -35,5 +34,5 @@ def load_graph(graph_url):
 
     return answer_graph
 
-#citation_graph = load_graph(CITATION_URL)
+citation_graph = load_graph(CITATION_URL)
 
